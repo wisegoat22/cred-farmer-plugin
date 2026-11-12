@@ -16,6 +16,19 @@ four commands for the Anthropic Claude certification exams (CCAO-F, CCDV-F, CCAR
 - **Commands**: `/cred-farmer:drill <code> [topic] [size]`, `/cred-farmer:flashcards <code>`,
   `/cred-farmer:progress <code>` and `/cred-farmer:plan <code> [exam date]`.
 
+## Install
+
+In Claude Code:
+
+```
+/plugin marketplace add wisegoat22/cred-farmer-plugin
+/plugin install cred-farmer@cred-farmer
+```
+
+Or from a terminal: `claude plugin marketplace add wisegoat22/cred-farmer-plugin`, then
+`claude plugin install cred-farmer@cred-farmer`. The first time a tool needs your account, Claude
+Code asks you to sign in to Cred Farmer in your browser.
+
 ## What it sends, and where
 
 Everything goes to one place: `https://credfarmer.com/mcp`, over HTTPS. Claude sends the
