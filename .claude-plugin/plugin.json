@@ -1,7 +1,7 @@
 {
   "name": "cred-farmer",
   "displayName": "Cred Farmer",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Claude certification exam prep from Cred Farmer: exam facts, free practice questions graded on the Cred Farmer server, drills on the full question bank, flashcards and your study progress.",
   "author": {
     "name": "Cred Farmer",
@@ -11,10 +11,18 @@
   "homepage": "https://credfarmer.com/claude",
   "license": "MIT",
   "keywords": [
+    "claude-certification",
     "certification",
     "exam-prep",
     "study",
     "practice-questions",
-    "flashcards"
-  ]
+    "flashcards",
+    "mock-exam",
+    "study-plan"
+  ],
+  "repository": "https://github.com/wisegoat22/cred-farmer-plugin",
+  "documentationUrl": "https://credfarmer.com/claude",
+  "supportUrl": "https://credfarmer.com/contact",
+  "privacyPolicyUrl": "https://credfarmer.com/privacy",
+  "termsOfServiceUrl": "https://credfarmer.com/terms"
 }
